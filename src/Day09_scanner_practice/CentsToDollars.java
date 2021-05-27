@@ -1,0 +1,13 @@
+package Day09_scanner_practice;
+import java.util.Scanner;
+
+public class CentsToDollars {
+    public static void main(String[] args) {
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Enter dollars: ");
+        double dollars = scan.nextDouble();
+        double remainingCents = dollars*100;
+
+        System.out.println(remainingCents);
+    }
+}
