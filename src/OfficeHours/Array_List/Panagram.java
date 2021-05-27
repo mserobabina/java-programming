@@ -23,6 +23,7 @@ public class Panagram {
 
             if(alp.isEmpty()){
                 break;
+                //
             }
 
         }
